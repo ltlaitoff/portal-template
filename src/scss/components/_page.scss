@@ -1,9 +1,9 @@
 .page {
-    &__body {
-        // color: $sf;
-        min-width: 320px;
-        overflow-x: hidden;
-        position: relative;
-        background-color: red;
-        }
-    }
+  &__body {
+    color: var(--dark);
+    min-width: 320px;
+    overflow-x: hidden;
+    position: relative;
+    background-color: var(--light);
+  }
+}

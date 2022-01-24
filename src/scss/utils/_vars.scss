@@ -1,11 +1,14 @@
-// Variables
-
-//Maket variables
-
-
-//Standart variables (sf = standart font)
-$sf-family: Roboto;
-$sf-size: 10px; // 1em = 10px
-$sf-lineheight: 1.5em;
-$sf-weight: 400;
-$sf-color: #fff; // Заменить
+:root {
+  --light: #ffffff;
+  --dark: #1b365d;
+  --blue: #1877f2;
+  --footer-menu: #dadbdd;
+  --dark-black-text: #434140;
+  --privacy-text: #9ca5b0;
+  --light-blue-bg: #d0e7ea;
+  --black-gray: #615e5c;
+  --card-bg: #f7f7f7;
+  --light-descr: #aeaba8;
+  --pink: #f1c0c7;
+  --footer-bg: #272e38;
+}
