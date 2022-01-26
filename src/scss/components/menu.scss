@@ -1,0 +1,13 @@
+.menu {
+	&-list {
+		display: flex;
+		list-style-type: none;
+		column-gap: 53px;
+		&-item {
+			font-size: 16px;
+			line-height: 21px;
+
+			color: var(--dark);
+		}
+	}
+}

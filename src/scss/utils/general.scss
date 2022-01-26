@@ -1,0 +1,17 @@
+::selection {
+	background-color: var(--dark); // Заменить
+	color: var(--light);
+}
+
+input,
+textarea {
+	outline: none;
+
+	&:focus:required:invalid {
+		border-color: var(--pink);
+	}
+
+	&:forus:valid {
+		border-color: var(--blue);
+	}
+}

@@ -1,0 +1,37 @@
+.header {
+	height: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0px 104px 0 68px;
+
+	background-color: var(--light);
+
+	&-wrapper {
+		height: 100%;
+		display: flex;
+		column-gap: 105px;
+		align-items: center;
+		padding-bottom: 10px;
+	}
+
+	&-button {
+		&-log-into {
+			margin-top: 1px;
+			padding-top: 4px;
+			width: 92px;
+			height: 28px;
+			font-weight: bold;
+			font-size: 11px;
+			line-height: 17px;
+
+			border: 1px solid #a7bbc9;
+			box-sizing: border-box;
+			border-radius: 4px;
+			text-align: center;
+
+			color: var(--dark);
+			background-color: transparent;
+		}
+	}
+}
