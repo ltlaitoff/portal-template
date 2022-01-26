@@ -15,3 +15,13 @@ textarea {
 		border-color: var(--blue);
 	}
 }
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+}
