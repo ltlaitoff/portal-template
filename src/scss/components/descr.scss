@@ -2,4 +2,10 @@
 	font-size: 17px;
 	line-height: 23px;
 	color: var(--black-gray);
+
+	&-light {
+		@extend .descr;
+
+		color: var(--light);
+	}
 }
