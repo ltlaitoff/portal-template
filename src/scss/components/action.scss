@@ -1,0 +1,44 @@
+.action {
+	height: 54px;
+	width: 388px;
+
+	display: inline-grid;
+	grid-template-columns: 84px auto;
+	grid-template-rows: 1fr 1fr;
+
+	column-gap: 16px;
+	row-gap: 1px;
+
+	&-icon {
+		grid-row: 1 / span 2;
+	}
+
+	&-title {
+		padding-top: 5px;
+		grid-column: 2;
+		grid-row: 1;
+		align-items: start;
+
+		font-weight: bold;
+		font-size: 15px;
+		line-height: 21px;
+		/* identical to box height, or 140% */
+
+		/* dark */
+
+		color: #1b365d;
+	}
+
+	&-descr {
+		grid-column: 2;
+		grid-row: 2;
+
+		font-size: 14px;
+		line-height: 20px;
+		/* identical to box height, or 143% */
+
+		/* dark */
+
+		color: #1b365d;
+	}
+}
