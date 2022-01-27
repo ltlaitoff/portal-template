@@ -1,0 +1,129 @@
+.footer {
+	padding: 64px 88px 61px 88px;
+
+	display: flex;
+	column-gap: 180px;
+
+	background-color: var(--footer-bg);
+
+	&-logo {
+		margin: 0;
+		width: 128px;
+		height: 62px;
+		fill: var(--light);
+	}
+
+	&-content {
+		padding-right: 100px;
+	}
+
+	&-header {
+		display: flex;
+		column-gap: 25px;
+
+		&-right {
+			margin-left: 31px;
+
+			max-width: 264px;
+			height: 187px;
+
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+		}
+	}
+
+	&-menu {
+		padding-left: 8px;
+		display: flex;
+		justify-content: space-between;
+
+		&-list {
+			width: 203px;
+
+			padding-left: 16px;
+
+			display: flex;
+			flex-direction: column;
+			row-gap: 17px;
+
+			list-style-type: none;
+
+			&-small {
+				@extend .footer-menu-list;
+				padding-left: 31px;
+
+				font-size: 12px;
+				line-height: 21px;
+				row-gap: 15px;
+			}
+
+			&-item {
+				&-link {
+					font-size: 13px;
+					line-height: 21px;
+					color: var(--footer-menu);
+				}
+			}
+		}
+	}
+
+	&-sign-up {
+		&-text {
+			font-size: 14px;
+			line-height: 20px;
+			color: var(--privacy-text);
+		}
+
+		&-button {
+			min-width: 103px;
+			margin-top: 15px;
+			padding: 10px 25px 9px 25px;
+			font-size: 14px;
+			line-height: 20px;
+
+			text-align: center;
+			color: var(--dark);
+			background: var(--light);
+			border: 1px solid var(--light);
+			box-sizing: border-box;
+			border-radius: 24px;
+		}
+	}
+
+	&-language {
+		padding: 12px 69px 11px 63px;
+		width: 250px;
+		height: 40px;
+
+		background-color: transparent;
+
+		background: var(--footer-bg);
+		border: 1px solid #3d434c;
+		box-sizing: border-box;
+		border-radius: 5px;
+
+		font-size: 11px;
+		line-height: 17px;
+		text-align: center;
+		color: var(--light);
+
+		&-gray {
+			padding-left: 3px;
+			color: var(--privacy-text);
+		}
+	}
+
+	&-bottom {
+		margin-top: 86px;
+		margin-left: 16px;
+		display: flex;
+		flex-direction: column;
+		row-gap: 21px;
+		&-text {
+			font-size: 11px;
+			line-height: 17px;
+			color: var(--privacy-text);
+		}
+	}
+}
