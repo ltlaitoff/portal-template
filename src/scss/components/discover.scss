@@ -1,0 +1,76 @@
+.discover {
+	margin-top: 113px;
+	padding: 327px 88px 58px 88px;
+	min-height: 720px;
+
+	background-image: url('../images/discover-bg.png');
+
+	&-content {
+		position: relative;
+		max-width: 430px;
+
+		&-descr {
+			margin-top: 19px;
+		}
+
+		&-postscript {
+			margin-top: 23px;
+			font-size: 14px;
+			line-height: 20px;
+			color: var(--light);
+		}
+
+		&::before,
+		&::after {
+			content: '';
+			position: absolute;
+
+			top: 2px;
+			left: -29px;
+			width: 4px;
+
+			border-radius: 0 0 4px 4px;
+		}
+
+		&::before {
+			height: 216px;
+			background: #615e5c;
+		}
+
+		&::after {
+			height: 204px;
+			background: #add4e0;
+		}
+	}
+
+	&-opportunities {
+		margin-top: 56px;
+		display: flex;
+		flex-direction: column;
+
+		row-gap: 16px;
+	}
+
+	&-opportunity {
+		position: relative;
+		font-weight: bold;
+		font-size: 17px;
+		line-height: 23px;
+		color: var(--light);
+
+		&::before {
+			content: '';
+			position: absolute;
+
+			top: 0px;
+			left: -29px;
+			width: 4px;
+
+			height: 100%;
+
+			border-radius: 4px 4px;
+
+			background: #615e5c;
+		}
+	}
+}
