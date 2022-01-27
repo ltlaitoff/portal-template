@@ -1,0 +1,36 @@
+.video-calls {
+	padding: 0 88px;
+
+	display: flex;
+	justify-content: space-between;
+
+	&-image {
+		width: 632px;
+	}
+
+	&-content {
+		padding: 16px 54px 0 57px;
+	}
+
+	&-icons {
+		display: flex;
+		column-gap: 16px;
+	}
+
+	&-title {
+		margin-top: 17px;
+	}
+
+	&-descr {
+		margin-top: 19px;
+	}
+
+	&-postscript {
+		margin-top: 17px;
+
+		font-size: 11px;
+		line-height: 18px;
+
+		color: var(--light-descr);
+	}
+}
